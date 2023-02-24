@@ -1,0 +1,89 @@
+body{
+    background-color: gray;
+    color: #fff;
+    margin: 0px;
+    padding: 10px;
+}
+
+.box-blue{
+    width: 200px;
+    height: 200px;
+    border: black 5px solid;
+    margin: 10px;
+    background-color: cyan;
+    color: #000;
+    padding: 10px;
+}
+
+.box-yellow{
+    width: 200px;
+    height: 200px;
+    border: black 5px solid;
+    margin: 10px;
+    background-color: yellow;
+    color: #000;
+    padding: 10px;
+}
+
+.box-violet{
+    width: 200px;
+    height: 200px;
+    border: black 5px solid;
+    margin: 10px;
+    background-color: violet;
+    color: #000;
+    padding: 10px;
+}
+
+.box-red{
+    width: 200px;
+    height: 200px;
+    border: black 5px solid;
+    margin: 10px;
+    background-color: red;
+    color: #000;
+    padding: 10px;
+}
+
+.box-green{
+    width: 200px;
+    height: 200px;
+    border: black 5px solid;
+    margin: 10px;
+    background-color: green;
+    color: #000;
+    padding: 10px;
+}
+
+.box-pink{
+    width: 200px;
+    height: 200px;
+    border: black 5px solid;
+    margin: 10px;
+    background-color: pink;
+    color: #000;
+    padding: 10px;
+}
+.content{
+    border: 1px solid black;
+    height: 100%;
+    background: cyan;
+    color: white;
+}
+
+.content-box{
+    box-sizing: content-box;
+}
+
+.border-box{
+    box-sizing: border-box;
+}
+
+.grid-container{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2px 2px;
+    background-color: #2196F3;
+    padding: 10px;
+}
